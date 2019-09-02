@@ -1,0 +1,1 @@
+CREATE TABLE `kurir` ( `idKurir` INT NOT NULL ,  `nama` VARCHAR(100) NOT NULL ,  `username` VARCHAR(100) NOT NULL ,  `password` VARCHAR(255) NOT NULL ,  `alamat` VARCHAR(255) NOT NULL ,  `jk` VARCHAR(1) NOT NULL ,  `nohp` VARCHAR(15) NOT NULL ,  `tglLahir` DATE NOT NULL ,    PRIMARY KEY  (`idKurir`)) ;

@@ -1,0 +1,1 @@
+CREATE TABLE `pengiriman` ( `idPengiriman` INT NOT NULL , `idTransaksi` INT NOT NULL , `statusPengiriman` INT NOT NULL , PRIMARY KEY (`idPengiriman`))
