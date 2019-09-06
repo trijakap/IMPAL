@@ -10,7 +10,7 @@ import { NavLink, Link } from "react-router-dom";
 export class NavBar extends Component {
   render() {
     return (
-      <Navbar expand="lg" variant="light" bg="light">
+      <Navbar expand="lg" variant="light" bg="light" fixed="top">
         <Container>
           <Navbar.Brand>
             <Link to="/" style={{ fontWeight: "bold" }}>

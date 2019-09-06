@@ -8,5 +8,6 @@ body {
   background-color: #f6f6f6;
 }
 main {
+  margin-top: 56px;
   min-height: 80vh;
 }
