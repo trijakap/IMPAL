@@ -1,8 +1,11 @@
 # React front-end
+
+live preview http://ayo-sakit.surge.sh/
+
 - Clone or Pull this repository
 - Run `npm install` or `yarn install`
 - Fire up your favourite code editor
-- ```yarn start```
+- `yarn start`
 - Sekut...
 
 ## Available command
@@ -31,4 +34,4 @@ yarn eject
 
 Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
 
-*you can use `npm` instead of `yarn`
+\*you can use `npm` instead of `yarn`
