@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-
+import Container from "react-bootstrap/Container";
 export class Home extends Component {
   render() {
     return (
-      <div>
-        <h1>hello world</h1>
-      </div>
+      <main>
+        <Container className="bg-white">
+          <h1>hello world</h1>
+        </Container>
+      </main>
     );
   }
 }
