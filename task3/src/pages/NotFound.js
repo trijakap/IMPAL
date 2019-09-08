@@ -6,13 +6,9 @@ export class NotFound extends Component {
       <main>
         <Container>
           <div style={{ textAlign: "center" }}>
-            <br />
-            <br />
-            <br />
-            <br />
-            {/* wtf wkw */}
-            <br />
-            <h1>Halaman yang anda cari tidak ditemukan</h1>
+            <h1 style={{ marginTop: "5em" }}>
+              Halaman yang anda cari tidak ditemukan
+            </h1>
           </div>
         </Container>
       </main>
