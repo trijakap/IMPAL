@@ -9,15 +9,18 @@ import Button from "react-bootstrap/Button";
 export class Footer extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "#F6F6F6" }}>
+      <footer style={{ backgroundColor: "#F6F6F6" }}>
         <Container id="footer">
-          <Row className="py-5">
+          <Row md={6} className="py-5 text-center text-md-left">
             <Col>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               nunc libero, suscipit sed ligula id, cursus hendrerit urna.
               Quisque nec pretium justo, id lacinia velit.
             </Col>
-            <Col className="d-flex align-items-center pl-5">
+            <Col
+              md={6}
+              className="d-flex align-items-center pl-md-5 pt-3 pt-md-0"
+            >
               <InputGroup style={{ width: "100%" }}>
                 <Form.Control
                   placeholder="Masukan email anda"
@@ -42,7 +45,7 @@ export class Footer extends Component {
             2019 © AyoSakitDong. All rights reserved. Developed by sadBoiGang
           </span>
         </div>
-      </div>
+      </footer>
     );
   }
 }

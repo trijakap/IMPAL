@@ -12,16 +12,16 @@ export class Promotion extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img src="http://placekitten.com/g/400/300" alt="cats" />
+            <img src="http://placekitten.com/g/500/250" alt="cats" />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/300" alt="cats" />
+            <img src="http://placekitten.com/g/500/250" alt="cats" />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/300" alt="cats" />
+            <img src="http://placekitten.com/g/500/250" alt="cats" />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/300" alt="cats" />
+            <img src="http://placekitten.com/g/500/250" alt="cats" />
           </div>
         </Slider>
       </div>

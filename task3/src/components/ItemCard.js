@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import { faStar as farStar } from "@fortawesome/free-regular-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../style/card.css";
 export class ItemCard extends Component {
   render() {
     return (
@@ -7,10 +11,17 @@ export class ItemCard extends Component {
         <Card className="mx-auto">
           <Card.Img variant="top" src="https://via.placeholder.com/100x80" />
           <Card.Body>
-            <Card.Title>Nama obat</Card.Title>
-            <Card.Text>
+            <Card.Title style={{ margin: 0 }}>Nama obat</Card.Title>
+            <div>
               <strong>Rp. 52.000,-</strong>
-            </Card.Text>
+              <div className="text-warning">
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={farStar} />
+                <FontAwesomeIcon icon={farStar} />
+              </div>
+            </div>
           </Card.Body>
         </Card>
       </div>
