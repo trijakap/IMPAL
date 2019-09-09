@@ -5,7 +5,7 @@ live preview http://ayo-sakit.surge.sh/
 - Clone or Pull this repository
 - Run `npm install` or `yarn install`
 - Fire up your favourite code editor
-- `yarn start`
+- `yarn start` or `npm start`
 - Sekut...
 
 ## Available command
