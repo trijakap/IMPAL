@@ -6,6 +6,7 @@ export class Promotion extends Component {
       dots: false,
       infinite: true,
       slidesToShow: 3,
+      autoplay: true,
       slidesToScroll: 3
     };
     return (
